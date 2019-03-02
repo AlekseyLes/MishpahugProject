@@ -1,0 +1,29 @@
+.avatar{
+    padding: 3em 20em;
+    line-height: 30px;
+    border-radius: 50px;
+}
+.backgroundrg{
+    position: absolute;
+    background-size: cover;
+    display: flex;
+    z-index: 1;
+}
+.regist{
+    float:inside;
+    z-index: 2;
+    position: relative;
+}
+.btnrg{
+    display: inline-block;
+    color: #989898;
+    background: rgba(255,255,255,.2);
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 15px;
+    transition: 0.2s;
+}
